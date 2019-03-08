@@ -1,0 +1,54 @@
+{
+    "envs":["DES","TES","TEF","TRE","HML","PRD"],
+    "servers":[
+        {
+            "sistema":"SIS1",
+            "env":"DES",
+            "artefatos":[
+                {
+                    "nome":"sis1-1.war",            "url":"https://sistema.com"
+                },{
+                    "nome":"sis1-2.war",            "url":"https://sistema.com"
+                },{
+                    "nome":"sis1-3.war",            "url":"https://sistema.com"
+                },{
+                    "nome":"sis1-4.war",            "url":"https://sistema.com"
+                },{
+                    "nome":"sis1-5.war",            "url":"https://sistema.com"
+                }
+            ]
+        },{
+            "sistema":"SIS1",
+            "env":"TES",
+            "artefatos":[
+                {
+                    "nome":"sis1-1.war",            "url":"http://sis1.tes.com/sis1-1"
+                },{
+                    "nome":"sis1-2.war",            "url":"http://sis2.tes.com/sis1-2"
+                },{
+                    "nome":"sis1-3.war",            "url":"http://sis3.tes.com/sis1-3"
+                },{
+                    "nome":"sis1-4.war",            "url":"http://sis2.tes.com/sis1-4"
+                },{
+                    "nome":"sis1-5.war",            "url":"http://sis2.tes.com/sis1-5"
+                }
+            ]
+        },{
+            "sistema":"SIS2",
+            "env":"DES",
+            "artefatos":[
+                {
+                    "nome":"sis2-1.war",            "url":"http://sis1.com/sis2-1"
+                },{
+                    "nome":"sis2-2.war",            "url":"http://sis2.com/sis2-2"
+                },{
+                    "nome":"sis2-3.war",            "url":"http://sis3.com/sis2-3"
+                },{
+                    "nome":"sis2-4.war",            "url":"http://sis2.com/sis2-4"
+                },{
+                    "nome":"sis2-5.war",            "url":"http://sis2.com/sis2-5"
+                }
+            ]
+        }
+    ]
+}

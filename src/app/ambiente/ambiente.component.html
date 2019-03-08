@@ -1,0 +1,13 @@
+<p-table [value]="grupo[sistema + '-' + env]">
+    <ng-template pTemplate="header">
+      <tr>
+          <th>{{env}}</th>
+      </tr>
+    </ng-template>
+    <ng-template pTemplate="body" let-rowData>
+        <tr *ngFor="let war of rowData.artefatos">
+            <td><app-status [war]='war'></app-status></td>
+        </tr>
+    </ng-template>
+</p-table>
+
