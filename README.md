@@ -1,3 +1,12 @@
+Projeto inicial para facilitar o monitoramento de servidores diversos.
+Futuramente poderá ter as informações das urls e sistemas em um banco mongo provavelmente.
+
+Amarelo nao terminou o request.
+Verde request OK.
+Vermelho request NOK.
+
+![Print da tela e organização dos servidores](https://raw.githubusercontent.com/jandrei/status-servidores/master/src/assets/servidores.png)
+
 # StatusServidores
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.0.6.
