@@ -10,6 +10,7 @@ export class StatusComponent implements OnInit {
 
   @Input() war: any;
 
+  
   color = 'w';//w,s,e
 
   constructor(private http: HttpClient) { }

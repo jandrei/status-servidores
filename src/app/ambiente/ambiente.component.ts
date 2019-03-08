@@ -17,4 +17,8 @@ export class AmbienteComponent implements OnInit {
   ngOnInit() {
   }
 
+  public openNewTab(war) {
+    window.open(war.url, '_blank');
+  }
+
 }

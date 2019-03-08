@@ -16,6 +16,15 @@ export class AppComponent implements OnInit {
   constructor(private http: HttpClient) { }
 
   ngOnInit() {
+    this.iniciando();
+  }
+
+  public iniciando() {
+    console.log('iniciando');
+    this.grupo = {};
+    this.sistemas = [];
+    this.servidores = [];
+
     this.http.get('/assets/servidores.json').subscribe(data => {
       this.servidores = data['servers'];
       this.envs = data['envs'];
