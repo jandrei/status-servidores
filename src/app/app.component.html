@@ -13,11 +13,15 @@
           <th>Sistema</th>
           <th [attr.colspan]="envs && envs.length || 1">Ambientes</th>
       </tr>
+      <tr>
+          <th></th>
+          <th *ngFor="let env of envs">{{env}}</th>
+      </tr>
   </ng-template>
   <ng-template pTemplate="body" let-rowData let-rowIndex="rowIndex">
       <tr class="linha-sistema">
-          <td>
-              <span style="font-weight:bold">{{rowData}}</span>
+          <td >
+              <span style="margin-left: 30%;">{{rowData}}</span>
           </td>
           <td *ngFor="let env of envs" class="coluna-sistema">
               <app-ambiente [env]="env" [grupo]="grupo" [sistema]="rowData" ></app-ambiente>
@@ -25,6 +29,4 @@
       </tr>
   </ng-template>
 </p-table>
-{{rowGroupMetadata|json}}
-
 <router-outlet></router-outlet>
