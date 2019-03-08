@@ -2,7 +2,7 @@ Projeto inicial para facilitar o monitoramento de servidores diversos.
 Futuramente poderá ter as informações das urls e sistemas em um banco mongo provavelmente.
 Hoje como esta suprirá a necessidade.
 
-(imagem)[https://raw.githubusercontent.com/jandrei/status-servidores/master/src/assets/servidores.png]
+![Print da tela e organização dos servidores](https://raw.githubusercontent.com/jandrei/status-servidores/master/src/assets/servidores.png)
 
 # StatusServidores
 
